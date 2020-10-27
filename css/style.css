@@ -9,7 +9,6 @@
 
 .inner.header-inner {
   background-color: #fff;
-  height: 90px;
   width: 100%;
   position: fixed;
   padding-top: 15px;
@@ -26,6 +25,7 @@
   float: left;
   padding-left: 250px;
   color: #c0c0c0;
+  padding-bottom: 15px;
 }
 
 .header-button {
@@ -40,17 +40,17 @@
 
 .header-button:hover {
   color: #333;
-  transition: 0.3;
+  transition: 0.3s;
 }
 
 .title {
   background-color:#f2f2f2;
   width: 100%;
+  padding: 250px 0px;
 }
 
 .inner.title-inner {
   width: 100%;
-  padding: 250px 0px;
 }
 
 .title-h1 {
@@ -73,6 +73,7 @@
 .inner.section-inner {
   display: flex;
   width: 100%;
+  padding-top: 50px;
 }
 
 .section-title {
@@ -84,15 +85,11 @@
 
 .section-text {
   font-size: 20px;
-  padding-top: 35px;
+  margin-top: 35px;
+  margin-left: 80px;
   line-height: normal;
   color: #fff;
   text-align: center;
-}
-
-.section-box {
-  padding-top: 50px;
-  padding-left: 80px;
 }
 
 .section-box.iphone-img {
@@ -105,13 +102,14 @@
 
 .inner.article-inner {
   width: 100%;
+  padding-top: 60px;
+  padding-bottom: 70px;
 }
 
 .article-title {
   color: #333;
   font-family: Raleway;
   font-size: 24px;
-  padding-top: 60px;
   padding-bottom: 40px;
   text-align: center;
 }
@@ -131,7 +129,7 @@
 
 .article-image:hover {
   opacity: 1;
-  transition: 0.3;
+  transition: 0.3s;
 }
 
 .article-image:nth-child(n+4) {
@@ -140,10 +138,6 @@
 
 .article-image:nth-child(3n) {
   margin-right: 0px;
-}
-
-.article-inner-bottom.clearfix {
-  padding-bottom: 70px;
 }
 
 .article-text {
@@ -166,11 +160,13 @@
 
 .article-button:hover {
   color: #333;
-  transition: 0.3;
+  transition: 0.3s;
 }
 
 .our-skills {
   background-color: #4e4e4e;
+  padding-top: 70px;
+  padding-bottom: 100px;
   text-align: center;
 }
 
@@ -182,7 +178,7 @@
 
 .our-skills-title {
   font-size: 24px;
-  padding: 70px 0px;
+  padding-bottom: 70px;
   color: #fff;
   text-align: center;
 }
@@ -195,23 +191,22 @@
 
 .our-skills-image {
   display: inline-block;
-  padding-right: 180px;
-  padding-bottom: 100px;
+  margin-right: 180px;
   text-align: center;
 }
 
 .our-skills-image:last-child {
-  margin-right: -180px;
+  margin-right: 0;
 }
 
 .nav {
   width: 100%;
   background-color: #f2f2f2;
+  padding: 200px 0;
 }
 
 .nav-inner {
-  text-align: center;
-  margin-left: 120px;
+  margin: auto;
 }
 
 .nav-icon {
@@ -219,14 +214,13 @@
   display: inline-block;
   text-align: center;
   line-height: normal;
-  margin: 200px 0px;
   width: 185px;
   height: 100px;
   font-size: 60px;
 }
 
 .nav-icon:hover {
-  transition: 0.3;
+  transition: 0.3s;
   background-color: #fff;
   width: 185px;
 }
@@ -234,14 +228,12 @@
 .footer {
   background-color: #74cfae;
   width: 100%;
-  height: 60px;
-  position: relative;
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 .footer-inner {
-  position: absolute;
-  top: 20px;
-  left: 150px;
+  padding-left: 180px;
 }
 
 .footer-text {
