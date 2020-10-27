@@ -98,12 +98,13 @@
 
 .article {
   background-color: #f2f2f2;
+  width: 100%;
 }
 
 .inner.article-inner {
-  width: 100%;
   padding-top: 60px;
   padding-bottom: 70px;
+  width: 100%;
 }
 
 .article-title {
