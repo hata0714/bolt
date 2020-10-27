@@ -9,11 +9,11 @@
 
 .inner.header-inner {
   background-color: #fff;
-  width: 100%;
   position: fixed;
   padding-top: 15px;
+  padding-left: 170px;
+  padding-right: 170px;
 }
-
 .clearfix::after {
   content: "";
   display: block;
@@ -23,7 +23,6 @@
 .fas.fa-bolt {
   font-size: 60px;
   float: left;
-  padding-left: 250px;
   color: #c0c0c0;
   padding-bottom: 15px;
 }
@@ -34,7 +33,6 @@
   padding: 14px 12px;
   background-color: #74cfae;
   float: right;
-  margin-right: 250px;
   text-decoration: none;
 }
 
@@ -50,7 +48,7 @@
 }
 
 .inner.title-inner {
-  width: 100%;
+  margin: auto;
 }
 
 .title-h1 {
@@ -72,8 +70,8 @@
 
 .inner.section-inner {
   display: flex;
-  width: 100%;
   padding-top: 50px;
+  padding-left: 250px;
 }
 
 .section-title {
@@ -92,10 +90,6 @@
   text-align: center;
 }
 
-.section-box.iphone-img {
-  padding-left: 250px;
-}
-
 .article {
   background-color: #f2f2f2;
   width: 100%;
@@ -104,7 +98,7 @@
 .inner.article-inner {
   padding-top: 60px;
   padding-bottom: 70px;
-  width: 100%;
+  margin: auto;
 }
 
 .article-title {
@@ -145,7 +139,7 @@
   color: #333;
   float: left;
   text-align: center;
-  padding-left: 370px;
+  padding-left: 210px;
   padding-right: 90px;
   line-height: normal;
 }
@@ -172,7 +166,6 @@
 }
 
 .inner.our-skills {
-  width: 100%;
   text-align: center;
   display: inline-block;
 }
