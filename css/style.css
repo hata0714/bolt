@@ -4,16 +4,16 @@
   background-color: #fff;
   height: 90px;
   width: 100%;
-  position: relative;
+  position: fixed;
 }
 
 .inner.header-inner {
   background-color: #fff;
-  position: fixed;
   padding-top: 15px;
-  padding-left: 170px;
-  padding-right: 170px;
+  padding-bottom: 15px;
+  margin: auto;
 }
+
 .clearfix::after {
   content: "";
   display: block;
@@ -24,7 +24,6 @@
   font-size: 60px;
   float: left;
   color: #c0c0c0;
-  padding-bottom: 15px;
 }
 
 .header-button {
@@ -71,7 +70,7 @@
 .inner.section-inner {
   display: flex;
   padding-top: 50px;
-  padding-left: 250px;
+  margin: auto;
 }
 
 .section-title {
