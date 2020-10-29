@@ -1,10 +1,15 @@
 @charset "UTF-8";
 
+body {
+  font-family: Lato;
+}
+
 .header {
   background-color: #fff;
   height: 90px;
   width: 100%;
   position: fixed;
+  z-index: 1;
 }
 
 .inner.header-inner {
@@ -33,11 +38,16 @@
   background-color: #74cfae;
   float: right;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .header-button:hover {
   color: #333;
   transition: 0.3s;
+}
+
+.main {
+  padding-top: 15px;
 }
 
 .title {
@@ -83,10 +93,13 @@
 .section-text {
   font-size: 20px;
   margin-top: 35px;
-  margin-left: 80px;
   line-height: normal;
   color: #fff;
   text-align: center;
+}
+
+.section-box.title-text {
+  margin: 0px auto;
 }
 
 .article {
@@ -119,6 +132,7 @@
   margin-right: 100px;
   margin-bottom: 90px;
   opacity: 0.7;
+  transition: 0.3s;
 }
 
 .article-image:hover {
@@ -150,6 +164,7 @@
   padding: 14px 20px;
   background-color: #74cfae;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .article-button:hover {
@@ -210,6 +225,7 @@
   width: 185px;
   height: 100px;
   font-size: 60px;
+  transition: 0.3s;
 }
 
 .nav-icon:hover {
@@ -225,8 +241,8 @@
   padding-bottom: 25px;
 }
 
-.footer-inner {
-  padding-left: 180px;
+.inner.footer-inner {
+  margin: auto;
 }
 
 .footer-text {
