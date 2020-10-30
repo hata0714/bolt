@@ -4,8 +4,12 @@ body {
   font-family: Lato;
 }
 
-h2 {
+.font-raylway {
   font-family: Raleway;
+}
+
+img {
+  vertical-align: bottom;
 }
 
 .header {
@@ -52,29 +56,29 @@ h2 {
   padding-top: 90px;
 }
 
-.title {
+.theme {
   background-color:#f2f2f2;
   width: 100%;
   padding: 250px 0px;
 }
 
-.inner.title-inner {
+.theme-inner {
   margin: auto;
 }
 
-.title-h1 {
+.theme-contents {
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
 }
 
-.title-p {
+.sub-title {
   color: #c0c0c0;
   font-size: 30px;
   margin-top: 20px;
 }
 
-.section {
+.what-we-can-do {
   background-color: #74cfae;
   width: 100%;
 }
@@ -103,56 +107,63 @@ h2 {
   margin-left: 200px;
 }
 
-.article {
+.our-latest-work {
   background-color: #f2f2f2;
   width: 100%;
 }
 
-.inner.article-inner {
+.our-latest-work-inner {
   padding-top: 60px;
   padding-bottom: 70px;
 }
 
-.article-contents {
+.our-latest-work-contents {
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
   align-items:center;
 }
 
-.article-image {
-  margin-right: 100px;
-  margin-bottom: 90px;
+.our-latest-work-image {
+  margin-left: 100px;
   opacity: 0.7;
   transition: 0.3s;
 }
 
-.article-image:hover {
+.our-latest-work-image:hover {
   opacity: 1;
   transition: 0.3s;
 }
 
-.article-image:nth-child(n+4) {
-  margin-bottom: 80px;
+.our-latest-work-image:nth-child(n+4) {
+  margin-top: 80px;
 }
 
-.article-image:nth-child(3n) {
-  margin-right: 0px;
+.our-latest-work-image:nth-child(1) {
+  margin-left: 0px;
 }
 
-.article-title {
+.our-latest-work-image:nth-child(4) {
+  margin-left: 0px;
+}
+
+.our-latest-work-inner-bottom {
+  margin-top: 90px;
+}
+
+.our-latest-work-title {
   color: #333;
   font-size: 24px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
-.article-text-box {
+.our-latest-work-text-box {
   width: 550px;
   margin: auto;
 }
 
-.article-text {
+.our-latest-work-text {
   color: #333;
   float: left;
   text-align: center;
@@ -160,7 +171,7 @@ h2 {
   line-height: normal;
 }
 
-.article-button {
+.our-latest-work-button {
   color: #f2f2f2;
   float: left;
   font-size: 12px;
@@ -170,7 +181,7 @@ h2 {
   transition: 0.3s;
 }
 
-.article-button:hover {
+.our-latest-work-button:hover {
   color: #333;
   transition: 0.3s;
 }
@@ -189,7 +200,7 @@ h2 {
 
 .our-skills-title {
   font-size: 24px;
-  padding-bottom: 70px;
+  margin-bottom: 70px;
   color: #fff;
   text-align: center;
 }
@@ -197,7 +208,7 @@ h2 {
 .our-skills-image-text {
   font-size: 16px;
   color: #fff;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .our-skills-image {
