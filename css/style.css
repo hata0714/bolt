@@ -227,6 +227,15 @@ img {
   padding: 200px 0;
 }
 
+ul.nav-inner {
+  text-align: center;
+}
+
+ul.nav-inner li {
+  list-style-type: none; 
+  display: inline-block; 
+}
+
 .nav-icon {
   color: #74cfae;
   display: inline-block;
@@ -273,20 +282,20 @@ img {
 /* pad */
 @media screen and (min-width:768px) and (max-width:1199px) {
   .our-latest-work-inner-bottom {
-    margin-top: 80px;
+     margin-top: 80px;
   }
  
-.our-latest-work-inner {
-  padding-bottom: 90px;
-}
+  .our-latest-work-inner {
+    padding-bottom: 90px;
+  }
 
-.our-skills-image {
-  margin-top: 88px;
-}
+  .our-skills-image {
+    margin-top: 88px;
+  }
 
-.our-skills-image:first-of-type {
-  margin-top: 40px;
-}
+  .our-skills-image:first-of-type {
+    margin-top: 40px;
+  }
 
 }
 /* sp */
@@ -320,8 +329,7 @@ img {
     background : #ddd;
     -webkit-transition: 0.3s ease-in-out;
     -moz-transition   : 0.3s ease-in-out;
-    transition        : 0.3s ease-in-out;
-    
+    transition        : 0.3s ease-in-out; 
   }
 
   .hamburger span:nth-child(1) {
@@ -341,27 +349,31 @@ img {
     padding-bottom: 130px;
   }
 
-  theme-contents {
+  .theme-contents {
     font-size: 80px;
   }
 
-.sub-title {
-  font-size: 30px;
-}
+  .sub-title {
+    font-size: 30px;
+  }
 
-.nav-icon {
-  display: block;
-  margin: auto;
-  width: 100%;
-}
+  .nav-icon {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
 
-.nav {
-  padding: 50px 0px
-}
+  .nav {
+    padding: 50px 0px
+  }
 
-.nav-icon:hover {
-  width: 100%;
-}
+  .nav-icon:hover {
+    width: 100%;
+  }
+
+  ul.nav-inner li {
+    display: block;
+  }
 
 }
 /* sp ここまで */
@@ -421,6 +433,5 @@ img {
     display: block;
     margin-left: 0px;
   }
-
 }
 /* pad & sp ここまで */
