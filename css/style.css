@@ -265,3 +265,162 @@ img {
   text-align: center;
   margin: auto;
 }
+
+.hamburger {
+  display: none;
+}
+
+/* pad */
+@media screen and (min-width:768px) and (max-width:1199px) {
+  .our-latest-work-inner-bottom {
+    margin-top: 80px;
+  }
+ 
+.our-latest-work-inner {
+  padding-bottom: 90px;
+}
+
+.our-skills-image {
+  margin-top: 88px;
+}
+
+.our-skills-image:first-of-type {
+  margin-top: 40px;
+}
+
+}
+/* sp */
+@media screen and (max-width:767px) {
+  .header-button {
+    display: none;
+  }
+
+  .hamburger {
+    display : block;
+    position: fixed;
+    z-index : 3;
+    right : 11px;
+    top   : 20px;
+    width : 52px;
+    height: 45px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  .hamburger span {
+    display : block;
+    position: absolute;
+    width   : 30px;
+    height  : 3px ;
+    left    : 10px;
+    background : #ddd;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition   : 0.3s ease-in-out;
+    transition        : 0.3s ease-in-out;
+    
+  }
+
+  .hamburger span:nth-child(1) {
+    top: 10px;
+  }
+
+  .hamburger span:nth-child(2) {
+    top: 20px;
+  }
+
+  .hamburger span:nth-child(3) {
+    top: 30px;
+  }
+
+  .theme {
+    padding-top: 160px;
+    padding-bottom: 130px;
+  }
+
+  theme-contents {
+    font-size: 80px;
+  }
+
+.sub-title {
+  font-size: 30px;
+}
+
+.nav-icon {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.nav {
+  padding: 50px 0px
+}
+
+.nav-icon:hover {
+  width: 100%;
+}
+
+}
+/* sp ここまで */
+/* pad & sp */
+@media screen and (max-width: 1199px) {
+  .inner {
+    width: 97%;
+  }
+
+  .inner.section-inner{
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  
+  .section-box.title-text  {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .our-latest-work-image {
+    margin-left: 0px;
+    display: block;
+  }
+  
+  .our-latest-work-image:nth-child(5) {
+    margin-top: 0px;
+  }
+  
+  .our-latest-work-image:nth-child(6) {
+    margin-top: 0px;
+  }
+  
+  .our-latest-work-contents {
+    display: block;
+  }
+  
+  .our-latest-work-text{
+    float: none;
+  }
+  
+  .our-latest-work-button {
+    float: none;
+    margin-top: 150px;
+    margin-left: 0px;
+  }
+  
+  .our-latest-work-button-box {
+    margin-top: 40px;
+  }
+  
+  .our-latest-work-text-box {
+    width: 97%;
+  }
+  
+  .our-skills-image {
+    display: block;
+    margin-left: 0px;
+  }
+
+}
+/* pad & sp ここまで */
