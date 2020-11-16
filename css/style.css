@@ -140,11 +140,11 @@ img {
   margin-top: 80px;
 }
 
-.our-latest-work-image:nth-child(1) {
+.our-latest-work-image:first-child {
   margin-left: 0px;
 }
 
-.our-latest-work-image:nth-child(4) {
+.our-latest-work-image:nth-child(4n) {
   margin-left: 0px;
 }
 
@@ -279,6 +279,65 @@ ul.nav-inner li {
   display: none;
 }
 
+/* pad & sp */
+@media screen and (max-width: 1199px) {
+  .inner {
+    width: 97%;
+  }
+
+  .inner.section-inner{
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  
+  .section-box.title-text  {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .our-latest-work-image {
+    margin-left: 0px;
+    display: block;
+  }
+  
+  .our-latest-work-image:nth-child(5) {
+    margin-top: 0px;
+  }
+  
+  .our-latest-work-image:nth-child(6) {
+    margin-top: 0px;
+  }
+  
+  .our-latest-work-contents {
+    display: block;
+  }
+  
+  .our-latest-work-text{
+    float: none;
+  }
+  
+  .our-latest-work-button {
+    float: none;
+    margin-top: 150px;
+    margin-left: 0px;
+  }
+  
+  .our-latest-work-button-box {
+    margin-top: 40px;
+  }
+  
+  .our-latest-work-text-box {
+    width: 97%;
+  }
+  
+  .our-skills-image {
+    display: block;
+    margin-left: 0px;
+  }
+}
+/* pad & sp ここまで */
+
 /* pad */
 @media screen and (min-width:768px) and (max-width:1199px) {
   .our-latest-work-inner-bottom {
@@ -298,6 +357,8 @@ ul.nav-inner li {
   }
 
 }
+/* pad ここまで */
+
 /* sp */
 @media screen and (max-width:767px) {
   .header-button {
@@ -377,61 +438,3 @@ ul.nav-inner li {
 
 }
 /* sp ここまで */
-/* pad & sp */
-@media screen and (max-width: 1199px) {
-  .inner {
-    width: 97%;
-  }
-
-  .inner.section-inner{
-    display: block;
-    padding-top: 50px;
-    padding-bottom: 25px;
-  }
-  
-  .section-box.title-text  {
-    margin-top: 20px;
-    margin-left: 0px;
-  }
-
-  .our-latest-work-image {
-    margin-left: 0px;
-    display: block;
-  }
-  
-  .our-latest-work-image:nth-child(5) {
-    margin-top: 0px;
-  }
-  
-  .our-latest-work-image:nth-child(6) {
-    margin-top: 0px;
-  }
-  
-  .our-latest-work-contents {
-    display: block;
-  }
-  
-  .our-latest-work-text{
-    float: none;
-  }
-  
-  .our-latest-work-button {
-    float: none;
-    margin-top: 150px;
-    margin-left: 0px;
-  }
-  
-  .our-latest-work-button-box {
-    margin-top: 40px;
-  }
-  
-  .our-latest-work-text-box {
-    width: 97%;
-  }
-  
-  .our-skills-image {
-    display: block;
-    margin-left: 0px;
-  }
-}
-/* pad & sp ここまで */
